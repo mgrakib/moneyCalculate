@@ -1,0 +1,38 @@
+.money-img {
+    background-image: url(../img/img.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.input{
+    border: 2px solid rgba(222, 19, 19, 0);
+    outline: 2px solid rgba(255, 0, 0, 0);
+}
+
+.error{
+    border: 2px solid rgb(255, 0, 0);
+    outline: 2px solid rgb(255, 0, 0);
+    
+}
+.error::placeholder{
+    color: red;
+}
+
+.success{
+    border: 2px solid rgb(0, 255, 26);
+    outline: 2px solid rgb(0, 255, 26));
+}
+
+.error-message{
+    position: absolute;
+    visibility: hidden;
+}
+.error-hidden{
+    visibility: hidden;
+}
+
+.error-display{
+    visibility: visible !important;
+    color: red;
+}
